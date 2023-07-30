@@ -1,0 +1,110 @@
+body {
+    background-image: url(WhatsApp%20Image%202022-05-28%20at%202.08.39%20PM.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.textview {
+    display: inline-block;
+    margin: 2px;
+    margin-bottom: 10px;
+    width: 300px;
+    height: 200px;
+    font-size: 50px;
+    font-weight: bold;
+    background-color: rgba(245, 242, 237, 0.589);
+    /* background:none */
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    color: mintcream;
+}
+
+.equalButton {
+    cursor: pointer;
+    display: inline-block;
+    margin: 2px;
+    width: 70px;
+    height: 100px;
+    outline: none;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.button {
+    cursor: pointer;
+    display: inline-block;
+    margin: 2px;
+    width: 70px;
+    height: 50px;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 10px;
+    outline: none;
+}
+
+.button:active,
+.allclearButton:active,
+.equalButton:active {
+    background-color: limegreen;
+    box-shadow: 0 3px limegreen, inset 0px -20px 1px green;
+    transform: translateY(4px);
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+}
+
+.button:hover,
+.equalButton:hover {
+    background-color: lightyellow;
+    box-shadow: 0px 0px 2px lightyellow, inset 0px -20px 1px red;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+}
+
+.allclearButton {
+    border-radius: 10px;
+    color: #FFF;
+    margin: 2px;
+    width: 70px;
+    height: 50px;
+    text-shadow: -1px -1px 0px #44006F;
+    background-color: red;
+    border-top: 2px solid #FF8484;
+    border-right: 2px solid #FF8484;
+    border-bottom: 2px solid #800000;
+    border-left: 2px solid #800000;
+    box-shadow: 0px 0px 2px #030303, inset 0px -20px 1px #B00000;
+    outline: none;
+}
+
+h1 {
+    margin: 0px;
+    color: white;
+    font-size: 80px;
+    text-justify: newspaper;
+    text-align: center;
+    font-family: cursive;
+}
+
+.container {
+    margin-top: 50px;
+    background-color: darkslategray;
+    /* background-size: 100px 80px; */
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    border-radius: 10px ;
+    border: 2px solid;
+    padding: 5px;
+}
+*{
+    font-size: 25px;
+    border-color: white;
+}
